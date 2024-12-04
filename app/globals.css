@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset any custom styles */
+:root {
+  /* Remove any custom variables */
+}
+
+body {
+  /* Remove custom color, gradient, and background styles */
+  all: unset;
+  display: block; /* Ensure body behaves normally after `unset` */
+}
